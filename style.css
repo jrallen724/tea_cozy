@@ -5,6 +5,8 @@
     color: seashell;
 }
 
+/* Header */
+
 header {
     height: 69px;
     padding-left: 10px;
@@ -26,4 +28,28 @@ header {
 
 .nav-item:not(:last-child) {
     margin-right: 15px;
+}
+
+/* Mission Section */
+
+#mission {
+    display: flex;
+    height: 700px;
+    background-image: url("images/mission-background.jpg");
+    background-size: cover;
+}
+
+#mission-banner {
+
+}
+
+#mission h2 {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+#mission p {
+    padding: 0;
+    margin: 0;
 }
