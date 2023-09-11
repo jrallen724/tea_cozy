@@ -1,0 +1,29 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black; 
+    color: seashell;
+}
+
+header {
+    height: 69px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    height: 50px;
+}
+
+.nav-item {
+    display: inline;
+    text-decoration: underline;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 15px;
+}
