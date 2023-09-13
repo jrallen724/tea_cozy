@@ -3,6 +3,9 @@
     font-size: 22px;
     background-color: black; 
     color: seashell;
+    /* border: 1px dashed red; */
+    padding: 0;
+    margin: 0;
 }
 
 /* Header */
@@ -33,23 +36,88 @@ header {
 /* Mission Section */
 
 #mission {
-    display: flex;
     height: 700px;
     background-image: url("images/mission-background.jpg");
     background-size: cover;
+    align-items: center;
+    margin: 0px 50px;
+    display: flex;
+    margin-bottom: 75px;
 }
 
 #mission-banner {
-
+    width: 100%;
 }
 
-#mission h2 {
+
+#mission-banner h2 {
     font-size: 1.5rem;
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
+    text-align: center;
 }
 
-#mission p {
+#mission-banner h4 {
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Tea of the Month */
+
+#tea-info h2 {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#tea-info {
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#tea-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea {
+    margin: 10px;
+}
+.tea img{
+    height: 200px;
+    width: 300px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+#locations {
+    height: 500px;
+    background: no-repeat url(images/locations.jpg);
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+}
+
+#locations h2 {
+    background: none;
+    font-size: 1.5rem;
+}
+
+.card-container {
+    display: flex;
+    background: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-card {
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    border: 1px dashed red;
 }
